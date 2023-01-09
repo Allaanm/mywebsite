@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {}
+
+main {
+    margin: auto auto;
+    padding: 0 clamp(1em, 8vw, 196px);
+}
+
+main h1 {
+    color: var(--main-color);
+    margin-bottom: 2.25em 0;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+#registration-form {
+    margin: 40px auto;
+    max-width: 100%;
+    display: flex;
+    border: 1px solid var(--main-color);
+}
+
+#registration-form fieldset {
+    border: none;
+
+}
+
+#registration-form label {
+    display: flex;
+}
+
+#registration-form a {
+    text-decoration: underline;
+    margin: 1.5em auto 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+    #registration-form fieldset {
+        display: flex;
+        gap: 2.5em;
+        align-items: center;
+    }
+
+}
